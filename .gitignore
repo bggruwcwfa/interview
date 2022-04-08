@@ -1,11 +1,40 @@
+# maven, sbt
 target/
-pom.xml.tag
 pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
 release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-# https://github.com/takari/maven-wrapper#usage-without-binary-jar
-.mvn/wrapper/maven-wrapper.jar
+
+# intellij
+*.iml
+.idea
+out/
+
+# npm
+node_modules/
+.npmrc
+
+# bower
+bower_components/
+
+# gradle
+build/
+.gradle/
+
+# vagrant
+.vagrant/
+
+# log
+*.log
+
+# webpack
+bundle.js
+
+# local data
+.data/
+
+# python
+dist/
+venv/
+
+# symlinks
+.--external
+.--external-dropbox
